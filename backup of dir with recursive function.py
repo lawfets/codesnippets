@@ -14,7 +14,9 @@
 import os
 import datetime
 from shutil import copyfile
+
 #I might use input to know source and destination but that's for the future
+
 src= "C:\\wamp64" #these directories can be adapted as needed
 specificTime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 pathDir = "D:\\wamp64" + specificTime  #these directories can be adapted as needed
