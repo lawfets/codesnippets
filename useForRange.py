@@ -1,9 +1,9 @@
-list = [2,1,8,9,4,45,78,52,12]
+list1 = [2,1,8,9,4,45,78,52,12]
 
 def listCounter(listToCount):
-    sum = 0
+    listC = 0
     for i in range(len(listToCount)):
-        sum += listToCount[i]
-        print(listToCount[i], sum)
+        listC += listToCount[i]
+        print(listToCount[i], listC)
 
-listCounter(list)
+listCounter(list1)
